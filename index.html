@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/img/favico.ico">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="/script/script.js"></script>
+    <title>Jogo da Velha</title>
+  </head>
+  <body>
+    <h1>Jogo da Velha</h1>
+    <div>
+      <div class="square" id="1" onclick="chooseSquare(this.id)">-</div>
+      <div class="square" id="2" onclick="chooseSquare(this.id)">-</div>
+      <div class="square" id="3" onclick="chooseSquare(this.id)">-</div>
+    </div>
+    <div>
+      <div class="square" id="4" onclick="chooseSquare(this.id)">-</div>
+      <div class="square" id="5" onclick="chooseSquare(this.id)">-</div>
+      <div class="square" id="6" onclick="chooseSquare(this.id)">-</div>
+    </div>
+    <div>
+      <div class="square" id="7" onclick="chooseSquare(this.id)">-</div>
+      <div class="square" id="8" onclick="chooseSquare(this.id)">-</div>
+      <div class="square" id="9" onclick="chooseSquare(this.id)">-</div>
+    </div>
+    <div class="players">
+      <label for="" id="player">Jogador: </label>
+      <label for="" id="player-turn"></label>
+    </div>
+
+    <div>
+        <button role="button" class="botao" onclick="resetGame()">INICIAR</button>
+
+        <a href="https://pt.wikihow.com/Jogar-Jogo-da-Velha">
+            <button role="button" class="botao">INSTRUÇÕES</button>
+        </a> 
+    </div>
+  </body>
+</html>
